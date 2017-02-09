@@ -50,9 +50,9 @@ public class close extends javax.swing.JFrame {
         jButton1.setBounds(99, 91, 130, 59);
 
         getContentPane().add(jPanel1);
-        jPanel1.setBounds(0, 0, 710, 450);
+        jPanel1.setBounds(0, 0, 710, 420);
 
-        pack();
+        setBounds(0, 0, 347, 304);
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed

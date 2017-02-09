@@ -148,7 +148,7 @@ public class saldo extends javax.swing.JFrame {
 
         int saldo = 2000000;
         keterangan.setText("SISA SALDO YANG ANDA MILIKI");
-        nilai.setText(""+saldo);
+        nilai.setText("Saldo Anda : "+saldo);
     }//GEN-LAST:event_saldoActionPerformed
 
     private void penarikanActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_penarikanActionPerformed
@@ -156,7 +156,7 @@ public class saldo extends javax.swing.JFrame {
         int saldo = 2000000;
         int jmltarik = Integer.parseInt(tarikan);
         int total = saldo-jmltarik;
-        nilai.setText(""+total);
+        nilai.setText("Sisa Saldo Anda : "+total);
     }//GEN-LAST:event_penarikanActionPerformed
 
     private void transferActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_transferActionPerformed
@@ -166,7 +166,7 @@ public class saldo extends javax.swing.JFrame {
         int jmltransfer = Integer.parseInt(transfer);
         int lastsaldo = Integer.parseInt(saldolast);
         int total = lastsaldo-jmltransfer;
-        nilai.setText(""+total);
+        nilai.setText("Sisa Saldo Anda : "+total);
     }//GEN-LAST:event_transferActionPerformed
 
     private void setorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_setorActionPerformed
@@ -176,7 +176,7 @@ public class saldo extends javax.swing.JFrame {
         int jmlsetor = Integer.parseInt(setor);
         int lastsaldo = Integer.parseInt(saldolast);
         int total = lastsaldo+jmlsetor;
-        nilai.setText(""+total);
+        nilai.setText("Sisa Saldo Anda : "+total);
     }//GEN-LAST:event_setorActionPerformed
 
     private void logOutActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_logOutActionPerformed
