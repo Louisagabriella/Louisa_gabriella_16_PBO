@@ -95,7 +95,7 @@ public class sekolah extends javax.swing.JFrame {
         jButton8.setBounds(50, 60, 230, 30);
 
         getContentPane().add(jPanel1);
-        jPanel1.setBounds(0, 0, 330, 260);
+        jPanel1.setBounds(0, 0, 430, 400);
 
         jButton6.setText("Informasi Saldo");
         jButton6.addActionListener(new java.awt.event.ActionListener() {

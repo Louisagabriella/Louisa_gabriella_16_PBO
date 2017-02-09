@@ -50,7 +50,7 @@ public class close extends javax.swing.JFrame {
         jButton1.setBounds(99, 91, 130, 59);
 
         getContentPane().add(jPanel1);
-        jPanel1.setBounds(0, 0, 330, 270);
+        jPanel1.setBounds(0, 0, 710, 450);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents

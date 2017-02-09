@@ -71,7 +71,7 @@ public class Welcome extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(255, 255, 204));
         jPanel1.setForeground(new java.awt.Color(255, 255, 153));
         getContentPane().add(jPanel1);
-        jPanel1.setBounds(0, 0, 300, 240);
+        jPanel1.setBounds(0, 0, 440, 310);
 
         setBounds(0, 0, 318, 279);
     }// </editor-fold>//GEN-END:initComponents

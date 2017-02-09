@@ -132,7 +132,7 @@ public class saldo extends javax.swing.JFrame {
         jLabel2.setBounds(140, 30, 250, 40);
 
         getContentPane().add(jPanel1);
-        jPanel1.setBounds(0, 0, 520, 530);
+        jPanel1.setBounds(0, 0, 600, 580);
 
         setBounds(0, 0, 535, 571);
     }// </editor-fold>//GEN-END:initComponents
