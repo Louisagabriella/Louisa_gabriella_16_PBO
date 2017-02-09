@@ -145,14 +145,14 @@ public class saldo extends javax.swing.JFrame {
 
     private void saldoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_saldoActionPerformed
 
-        int saldo = 150000;
+        int saldo = 2000000;
         keterangan.setText("SISA SALDO YANG ANDA MILIKI");
         nilai.setText(""+saldo);
     }//GEN-LAST:event_saldoActionPerformed
 
     private void penarikanActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_penarikanActionPerformed
         String tarikan = inputPenarikan.getText();
-        int saldo = 150000;
+        int saldo = 2000000;
         int jmltarik = Integer.parseInt(tarikan);
         int total = saldo-jmltarik;
         nilai.setText(""+total);

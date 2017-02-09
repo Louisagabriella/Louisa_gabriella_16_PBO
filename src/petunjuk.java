@@ -27,7 +27,6 @@ public class petunjuk extends javax.swing.JFrame {
     private void initComponents() {
 
         jLabel2 = new javax.swing.JLabel();
-        jButton2 = new javax.swing.JButton();
         jButton1 = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
@@ -42,16 +41,6 @@ public class petunjuk extends javax.swing.JFrame {
         jLabel2.setText("ATM BNI SYARIAH BOJONEGORO");
         getContentPane().add(jLabel2);
         jLabel2.setBounds(40, 20, 250, 40);
-
-        jButton2.setBackground(new java.awt.Color(204, 255, 204));
-        jButton2.setText("SELESAI");
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton2);
-        jButton2.setBounds(220, 180, 80, 30);
 
         jButton1.setBackground(new java.awt.Color(204, 255, 204));
         jButton1.setText("Transaksi Lainnya");
@@ -98,11 +87,6 @@ public class petunjuk extends javax.swing.JFrame {
         setBounds(0, 0, 347, 304);
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        // TODO add your handling code here:
-        
-    }//GEN-LAST:event_jButton2ActionPerformed
-
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
         sekolah f = new sekolah();
@@ -147,7 +131,6 @@ public class petunjuk extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
