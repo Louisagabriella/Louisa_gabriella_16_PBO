@@ -55,7 +55,7 @@ public class Welcome extends javax.swing.JFrame {
         jLabel1.setBounds(60, 10, 190, 40);
 
         jLabel3.setFont(new java.awt.Font("Yu Gothic", 0, 11)); // NOI18N
-        jLabel3.setText("BNI SYARIAH-BOJONEGOR");
+        jLabel3.setText("BNI SYARIAH-BOJONEGORO");
         getContentPane().add(jLabel3);
         jLabel3.setBounds(40, 100, 190, 40);
 
